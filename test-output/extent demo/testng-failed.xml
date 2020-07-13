@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [extent demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="some test1(failed)">
+    <parameter name="linknm" value="Events"/>
+    <classes>
+      <class name="main.java.testngclasses.TNG_Extent">
+        <methods>
+          <include name="setup"/>
+          <include name="eventsTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="insideValidations" invocation-numbers="0"/>
+          <include name="navBack"/>
+        </methods>
+      </class> <!-- main.java.testngclasses.TNG_Extent -->
+    </classes>
+  </test> <!-- some test1(failed) -->
+</suite> <!-- Failed suite [extent demo] -->

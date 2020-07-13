@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart=extent demo]]>
+    </line>
+    <line>
+      <![CDATA[eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>setup]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>setup==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>eventsTest==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>insideValidations==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>tearDown]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>tearDown==>true]]>
+    </line>
+    <line>
+      <![CDATA[onFinish=some test1]]>
+    </line>
+    <line>
+      <![CDATA[onFinish=some test1]]>
+    </line>
+    <line>
+      <![CDATA[eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>setup]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>setup==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>eventsTest==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=eventsTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>insideValidations==>true]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess=insideValidations]]>
+    </line>
+    <line>
+      <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>tearDown]]>
+    </line>
+    <line>
+      <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>tearDown==>true]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-13T17:36:33 EDT" name="extent demo" finished-at="2020-06-13T17:37:22 EDT" duration-ms="48820">
+    <groups>
+    </groups>
+    <test started-at="2020-06-13T17:36:33 EDT" name="some test1" finished-at="2020-06-13T17:37:07 EDT" duration-ms="34079">
+      <class name="main.java.testngclasses.TNG_Extent">
+        <test-method is-config="true" signature="setup()[pri:0, instance:main.java.testngclasses.TNG_Extent@4b53f538]" started-at="2020-06-13T17:36:33 EDT" name="setup" finished-at="2020-06-13T17:36:55 EDT" duration-ms="21149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>setup==>true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="eventsTest(java.lang.String)[pri:0, instance:main.java.testngclasses.TNG_Extent@4b53f538]" started-at="2020-06-13T17:36:55 EDT" name="eventsTest" finished-at="2020-06-13T17:37:00 EDT" duration-ms="5609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Events]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart=eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[onTestStart=eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>eventsTest==>true]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=eventsTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- eventsTest -->
+        <test-method signature="insideValidations(java.lang.String)[pri:0, instance:main.java.testngclasses.TNG_Extent@4b53f538]" started-at="2020-06-13T17:37:00 EDT" name="insideValidations" finished-at="2020-06-13T17:37:01 EDT" duration-ms="898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Events]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart=insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[onTestStart=insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>insideValidations==>true]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=insideValidations]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insideValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:main.java.testngclasses.TNG_Extent@4b53f538]" started-at="2020-06-13T17:37:01 EDT" name="tearDown" finished-at="2020-06-13T17:37:07 EDT" duration-ms="6355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>tearDown==>true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- main.java.testngclasses.TNG_Extent -->
+    </test> <!-- some test1 -->
+    <test started-at="2020-06-13T17:37:08 EDT" name="some test2" finished-at="2020-06-13T17:37:22 EDT" duration-ms="14552">
+      <class name="main.java.testngclasses.TNG_Extent">
+        <test-method is-config="true" signature="setup()[pri:0, instance:main.java.testngclasses.TNG_Extent@2df32bf7]" started-at="2020-06-13T17:37:08 EDT" name="setup" finished-at="2020-06-13T17:37:17 EDT" duration-ms="9832" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>setup==>true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="eventsTest(java.lang.String)[pri:0, instance:main.java.testngclasses.TNG_Extent@2df32bf7]" started-at="2020-06-13T17:37:17 EDT" name="eventsTest" finished-at="2020-06-13T17:37:20 EDT" duration-ms="2501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Plugins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart=eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>eventsTest]]>
+            </line>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>eventsTest==>true]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=eventsTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- eventsTest -->
+        <test-method signature="insideValidations(java.lang.String)[pri:0, instance:main.java.testngclasses.TNG_Extent@2df32bf7]" started-at="2020-06-13T17:37:20 EDT" name="insideValidations" finished-at="2020-06-13T17:37:20 EDT" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Plugins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart=insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[before Invocation:main.java.testngclasses.TNG_Extent==>insideValidations]]>
+            </line>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>insideValidations==>true]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess=insideValidations]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insideValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:main.java.testngclasses.TNG_Extent@2df32bf7]" started-at="2020-06-13T17:37:20 EDT" name="tearDown" finished-at="2020-06-13T17:37:22 EDT" duration-ms="1684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[after Invocation:main.java.testngclasses.TNG_Extent==>tearDown==>true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- main.java.testngclasses.TNG_Extent -->
+    </test> <!-- some test2 -->
+  </suite> <!-- extent demo -->
+</testng-results>

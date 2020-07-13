@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JQUERY Tests">
+    <test name="All links test">
+        <classes>
+            <class name="main.java.testngclasses.TNG_DataProvider"></class>
+        </classes>
+    </test>
+</suite>

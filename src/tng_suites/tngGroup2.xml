@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="app testing">
+        <groups>
+            <define name="all android">
+                <include name="samsung"></include>
+                <include name="oneplus"></include>
+            </define>
+            <define name="all faceid">
+                <include name="faceid"></include>
+            </define>
+            <run>
+                <include name="all faceid"></include>
+                <exclude name="all android"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+</suite>

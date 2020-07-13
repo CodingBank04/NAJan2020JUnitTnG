@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--parallel value set to classes so all classes can run in parallel at once -->
+<suite name="Regression Suite" parallel="classes">
+    <test name="page object testing">
+        <classes>
+            <class name="main.java.testngclasses.TNG_PageObj1"/>
+            <class name="main.java.testngclasses.TNG_PageObj2"/>
+            <class name="main.java.testngclasses.TNG_BofaTest"/>
+        </classes>
+    </test>
+</suite>

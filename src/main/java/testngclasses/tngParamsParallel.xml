@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JQUERY Tests" parallel="tests" thread-count="10">
+    <test name="CLA Test">
+        <parameter name="linkNm" value="CLA"></parameter>
+        <parameter name="header" value="OpenJS Foundation"></parameter>
+        <parameter name="urlLink" value="openjsf"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+    <test name="Documentation Test">
+        <parameter name="linkNm" value="Documentation"></parameter>
+        <parameter name="header" value="Contributing to jQuery Foundation Documentation"></parameter>
+        <parameter name="urlLink" value="documentation"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+    <test name="Bug Triage Test">
+        <parameter name="linkNm" value="Bug Triage"></parameter>
+        <parameter name="header" value="Bug Triage"></parameter>
+        <parameter name="urlLink" value="triage"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+    <test name="Style Guides Test">
+        <parameter name="linkNm" value="Style Guides"></parameter>
+        <parameter name="header" value="jQuery’s Style Guides"></parameter>
+        <parameter name="urlLink" value="style-guide"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+    <test name="Web Sites Test">
+        <parameter name="linkNm" value="Web Sites"></parameter>
+        <parameter name="header" value="Contributing to jQuery Foundation Web Sites"></parameter>
+        <parameter name="urlLink" value="web-sites"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+    <test name="Code Test">
+        <parameter name="linkNm" value="Code"></parameter>
+        <parameter name="header" value="Writing Code for jQuery Foundation Projects"></parameter>
+        <parameter name="urlLink" value="code"></parameter>
+        <classes>
+            <class name="main.java.testngclasses.TNG2_Parallel"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="app testing all iphone">
+        <groups>
+            <run>
+                <include name="iphone"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+    <test name="app testing all android">
+        <groups>
+            <run>
+                <include name="android"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+    <test name="app testing all faceid">
+        <groups>
+            <run>
+                <include name="faceid"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+    <test name="app testing all samsung">
+        <groups>
+            <run>
+                <include name="samsung"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+    <test name="app testing all oneplus" enabled="false">
+        <groups>
+            <run>
+                <include name="oneplus"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.java.testngclasses.TNG_Group"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="app testing test1">
+        <classes>
+            <class name="main.java.testngclasses.TNG_Class_Method"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method2"></class>
+        </classes>
+    </test>
+    <test name="app testing test2" preserve-order="false">
+        <classes>
+            <class name="main.java.testngclasses.TNG_Class_Method2"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method7"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method9"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method8"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method"></class>
+            <class name="main.java.testngclasses.TNG_Class_Method0"></class>
+        </classes>
+    </test>
+</suite>
